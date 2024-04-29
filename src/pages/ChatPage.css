@@ -1,0 +1,46 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .chat-appbar {
+    display: flex;
+    align-items: center;
+    background-color: #0084ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  
+  .profile-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .chat-box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .messages-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    padding: 10px;
+
+  }
+  
+  .MessageBox {
+    margin-bottom: 10px;
+  }
+  
